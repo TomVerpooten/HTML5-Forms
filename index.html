@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Forms</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>HTML5 Forms</h1>
+    </header>
+    <article>
+        <form action="#" method="post">
+            <label for="FirstName">First Name <sup>*</sup></label>
+            <input name="FirstName" placeholder="First Name" required>
+            
+            <label for="LastName">Last Name <sup>*</sup></label>
+            <input name="LastName" placeholder="Last Name" required>
+            
+            <label for="E-mailadres">E-mailadres <sup>*</sup></label>
+            <input name="E-mailadres" type="email" placeholder="anything@example.com" required/>
+            
+            <label for="Computrs">How many team mebers will you share with?</label>
+            <input name="Computers" type="number" min="0" max="10" value="1"/>
+            
+            <label for="Submit" class="centerit" title="Click here to register your account">
+                <input type="submit" name="submit" value="Register for an account!"/>
+            </label>
+            
+            <p class="legal"><sup>*</sup> demotes a required field.</p>
+        </form>
+    </article>
+    <footer>
+        
+    </footer>
+</body>
+</html>
